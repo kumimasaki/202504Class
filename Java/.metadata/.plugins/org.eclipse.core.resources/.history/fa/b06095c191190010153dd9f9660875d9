@@ -1,0 +1,12 @@
+package lesson3_2.practice3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// リストの宣言
+		// データの追加
+		
+		// 本のジャンルが  「フィクション」の本のみのデータを出力
+	}
+
+}

@@ -1,0 +1,17 @@
+package lesson3_2.que_ex;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		// キューの宣言
+		Queue<Double> numList = new LinkedList<Double>();
+		// データの挿入
+		numList.offer(1.5);
+		numList.offer(2.5);
+		numList.offer(3.5);
+	}
+
+}

@@ -1,0 +1,17 @@
+package lesson3_3.final_ex;
+
+public class Cat {
+	// メンバ変数
+	// 1.宣言時に初期化する
+//	private final String name = "Alice";
+	// 2.宣言のみ
+	private final String name;
+	
+	public Cat() {
+		
+	}
+	
+	public Cat(String name) {
+		
+	}
+}

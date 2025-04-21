@@ -1,0 +1,13 @@
+package lesson3_2.practice4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Personのインスタンスを作成
+
+		// 拡張for文を使用して表示
+		
+		// 並び替えして表示
+	}
+
+}

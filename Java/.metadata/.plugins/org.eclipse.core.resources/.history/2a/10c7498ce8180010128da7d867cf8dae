@@ -1,0 +1,11 @@
+package lesson3_2.que_ex;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		// キューの宣言
+		Queue<Double> numList = new LinkedList<Double>();
+
+	}
+
+}

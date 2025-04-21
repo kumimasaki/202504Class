@@ -1,0 +1,11 @@
+package lesson3_2.set_ex;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		// セットの宣言
+		Set<String> names = new HashSet<String>();
+
+	}
+
+}

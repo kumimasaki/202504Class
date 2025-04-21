@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="lesson2_1.practice4.Circle"/>
+    <fullyQualifiedTypeName name="lesson2_2.extends_ex.Runnable"/>
+    <fullyQualifiedTypeName name="lesson2_2.extends_ex.practice2.Shape"/>
+    <fullyQualifiedTypeName name="lesson2_2.extends_ex.practice4.Shape"/>
+    <fullyQualifiedTypeName name="lesson2_2.extends_ex.practice4.Printable"/>
+    <fullyQualifiedTypeName name="java.awt.image.VolatileImage"/>
+    <fullyQualifiedTypeName name="lesson2_3.capsule.practice1.Vehicle"/>
+    <fullyQualifiedTypeName name="java.lang.Record"/>
+    <fullyQualifiedTypeName name="lesson2_4.ex.Rectangle"/>
+    <fullyQualifiedTypeName name="lesson2_3.capsule.practice4.Cooler"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="lesson2_3.capsule.singleton.Company"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="lesson3_2.comparator.CatComparator"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+package lesson3_3.other_class;
+
+public class MathEx {
+
+	public static void main(String[] args) {
+		// 最大を求める
+		System.out.println(Math.max(22, 80));
+
+	}
+
+}

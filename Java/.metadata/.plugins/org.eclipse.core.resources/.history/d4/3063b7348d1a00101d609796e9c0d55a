@@ -1,0 +1,13 @@
+package lesson3_3.other_class;
+
+public class ScannerEx {
+
+	public static void main(String[] args) {
+		
+		try(Scanner scanner = new Sccanner(System.in)){
+			
+		}
+
+	}
+
+}

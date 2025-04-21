@@ -1,0 +1,24 @@
+package lesson3_2.practice6;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Listの宣言
+		List<Teacher>teacher = new ArrayList<>();
+		// データの挿入
+		teacher.add(new Teacher("Sasaki", 50));
+		teacher.add(new Teacher("Tanaka", 24));
+		teacher.add(new Teacher("Suzuki", 39));
+
+		// 教師の年齢が50歳未満のデータを抽出し表示する
+		System.out.println(
+				teacher.stream()
+				.filter(e->e.getAge()<50)
+				.collect(Collectors.toList())
+		);
+	}
+}
