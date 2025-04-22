@@ -1,0 +1,35 @@
+header{
+    /* 背景色 */
+    background-color: pink;
+    padding: 20px 0;
+}
+
+ul{
+    /*liたちを横並びにする*/
+    display: flex;
+    /*箇条書きの・を削除*/
+    list-style: none;
+    /*隙間をつくる*/
+    gap: 0 15px;
+    /*中央に寄せる*/
+    justify-content: center;
+}
+
+.blog-contents{
+    /* 横並びにする */
+    display: flex;
+    /*隙間をつくる*/
+    gap: 0 20px;
+    /*中央に寄せる*/
+    justify-content: center;
+}
+
+.blog{
+    /* 記事の大きさを小さくする */
+    width: 30%;
+}
+
+img{
+    /* 画像のサイズを小さくする */
+    width: 100%;
+}
