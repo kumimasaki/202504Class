@@ -1,0 +1,19 @@
+.header-contents{
+    /* 背景色 */
+    background-color: #6494edc8;
+    /* 幅の設定 */
+    width: 100%;
+    /* 高さの設定 */
+    height: 100px;
+}
+
+h1{
+    /* 文字を真ん中に配置 */
+    text-align: center;
+    /* フォント設定 */
+    font-family: "Dela Gothic One", sans-serif;
+    /* 文字の大きさを設定 */
+    font-size: 20px;
+    background-color: red;
+    width: 80%;
+}

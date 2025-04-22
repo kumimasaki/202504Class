@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            color: green;
+        }
+        /* 親から見た子供と孫だけ色をつける */
+        li li{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <!--子孫結合子-->
+    <ul>
+        <li>リスト項目（親） 1
+            <ul>
+                <li>リスト項目（子） A</li>
+                <li>リスト項目（子） B
+                    <ul>
+                        <li>リスト項目（孫） a</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>リスト項目（親） 2</li>
+    </ul>
+</body>
+</html>

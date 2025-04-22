@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#a {
+    background-image: url(mountain.png);
+    background-repeat: no-repeat;
+    /* 可能な限りフル画像を表示 */
+    background-size: contain;
+}
+
+#b {
+    background-image: url(mountain.png);
+    background-repeat: no-repeat;
+    /* 可能な限り要素をカバー */
+    background-size: cover;
+}
+
+#c {
+    background-image: url(mountain.png);
+    background-repeat: no-repeat;
+    /* 手動で大きさを設定 横 縦*/
+    background-size: 200px 100px;
+}

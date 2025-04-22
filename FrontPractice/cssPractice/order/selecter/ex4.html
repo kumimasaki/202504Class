@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 兄弟関係で2つめに指定した要素に色を付ける */
+        article~div{
+            color: blue;
+        }
+        /* 隣接兄弟結合子：兄弟関係で直後の要素のみ色を付ける */
+        article+div{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <!--一般兄弟結合子-->
+    <div>適用されない</div>
+    <article>適用されない</article>
+    <div>適用される</div>
+    <p>適用されない</p>
+    <div>適用される</div>
+</body>
+</html>

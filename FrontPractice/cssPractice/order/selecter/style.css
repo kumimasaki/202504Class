@@ -1,0 +1,23 @@
+*{
+    font-size: 20px;
+}
+
+/* idの指定 */
+#li-color{
+    color: red;
+}
+
+/* クラスの指定 */
+.text-color{
+    color: blue;
+}
+
+/*idを指定して色をred*/
+#contents{
+    color: red;
+}
+
+/*クラスを指定して色をblue*/
+.section{
+    color: blue;
+}
