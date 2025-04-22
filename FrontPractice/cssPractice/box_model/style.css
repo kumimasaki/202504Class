@@ -1,0 +1,36 @@
+#text-1{
+    /* 線の種類 */
+    border-style: solid dotted double dashed;
+    /*線の色*/
+    border-color: red green;
+    /*線の太さ*/
+    border-width: 4px;
+    /*角丸にする*/
+    border-radius: 20px;
+    /*罫線の内側に余白を入れる*/
+    padding: 20px 50px;
+    /*罫線の外側に余白を入れる*/
+    margin: 10px 20px 30px 40px;
+}
+
+#text-2{
+    /* 線の種類 上下solid, 左右dashed*/
+    /* border-style: solid dashed; */
+
+    /* 一括設定 */
+    border: 3px solid blue;
+    /*罫線の内側の上だけに余白を入れたい場合*/
+    padding-top: 40px;
+    /*罫線の外側の上だけに余白を入れたい場合*/
+    margin-top: 100px;
+}
+
+.center{
+    border: 1px solid black;
+    /* 幅を設定 */
+    width: 40%;
+    /*文字を真ん中に持ってくる*/
+    text-align: center;
+    /*ブロックを真ん中に配置*/
+    margin: 0 auto;
+}

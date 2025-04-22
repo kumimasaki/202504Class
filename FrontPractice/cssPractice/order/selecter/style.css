@@ -21,3 +21,13 @@
 .section{
     color: blue;
 }
+
+/* 箇条書きの点を消す方法 */
+ul{
+    list-style: none;
+}
+
+/* リンクの下線を消す */
+a{
+    text-decoration: none;
+}
