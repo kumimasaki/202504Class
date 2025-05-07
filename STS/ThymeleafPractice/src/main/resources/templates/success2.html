@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{/css/reset.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+   <h1>登録が成功しました</h1>
+   <!-- ユーザー名、メールアドレス、パスワード-->
+   <p th:text="${userName}"></p>
+   <p th:text="${userEmail}"></p>
+   <p th:text="${userPassword}"></p>
+</body>
+
+</html>
