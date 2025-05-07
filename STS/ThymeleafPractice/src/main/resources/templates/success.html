@@ -13,6 +13,13 @@
    <h1>ログインが成功しました</h1>
     <p th:text="${userEmail}"></p>
     <p th:text="${userPassword}"></p>
+	
+	<ul th:each="data : ${array}">
+		<li th:text="${data}"></li>
+	</ul>
+	
+	<p th:text="'名前は' + ${alice.name}"></p>
+	<p th:text="${alice.age}"></p>
 </body>
 
 </html>

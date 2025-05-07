@@ -12,6 +12,7 @@
 <body>
     <header>
         <h1>ログイン</h1>
+		<h2 th:if="${error}">メールアドレスかパスワードが間違っています</h2>
     </header>
     <main>
         <form th:action="@{/login/process}" method="post">
