@@ -54,18 +54,10 @@ public class LoginController {
 	 */
 	@PostMapping("/register/process")
 	public String register(@RequestParam String username, @RequestParam String email, @RequestParam String password) {
-		if(username.equals("user") && email.equals("admin@test.com")
-				&& password.equals("admin")) {
+		if (username.equals("user") && email.equals("admin@test.com") && password.equals("admin")) {
 			return "redirect:/result";
 		} else {
 			return "redirect:/register";
 		}
 	}
-
-	
-	
-	
-	
-	
-	
 }

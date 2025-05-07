@@ -106,3 +106,12 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 10:12:48.120
 !MESSAGE Classpath changed for project: Hello
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 13:34:22.065
+!MESSAGE Classpath changed for project: ThymeleafPractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 13:34:22.091
+!MESSAGE Boot project ADDED: ThymeleafPractice
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-07 13:34:24.671
+!MESSAGE Classpath changed for project: ThymeleafPractice
