@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" th:href="@{/css/reset.css}">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 
 <body>
    <h1>ログインが成功しました</h1>
-    <p></p>
-    <p></p>
+    <p th:text="${userEmail}"></p>
+    <p th:text="${userPassword}"></p>
 </body>
 
 </html>
