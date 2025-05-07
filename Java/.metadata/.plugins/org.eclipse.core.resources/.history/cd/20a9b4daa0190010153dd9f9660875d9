@@ -1,5 +1,0 @@
-package lesson3_2.lamda_ex;
-
-public interface Color {
-
-}
