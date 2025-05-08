@@ -24,4 +24,22 @@ public class AdminService {
 			return true;
 		}
 	}
+	
+	// ログインチェック用のメソッド　メソッド名「loginCheck」
+	public boolean loginCheck(String adminEmail, String password) {
+		// もし、「emailとpasswordの組み合わせ」が存在していない場合、falseを返す
+		// そうでない場合、trueを返す
+		if(adminDao.findByAdminEmailAndPassword(adminEmail, password) == null) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
 }
