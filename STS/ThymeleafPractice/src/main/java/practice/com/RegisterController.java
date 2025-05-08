@@ -26,15 +26,4 @@ public class RegisterController {
 		model.addAttribute("userPassword", password);
 		return "success2.html";
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

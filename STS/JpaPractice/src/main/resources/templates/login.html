@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ログイン</h1>
+    </header>
+    <main>
+        <div class="error-msg">
+             <p>メールアドレスまたはパスワードが間違っています</p>
+        </div>
+        <form method="post" action="">
+            <div class="user-login-form">
+             <div class="form-row">
+                <label for="email">メールアドレス</label>
+                <input type="text" id="email" name="adminEmail" required>
+             </div>
+             <div class="form-row">
+                <label for="password">パスワード</label>
+                <input type="password" id="password" name="password" required>
+             </div>
+             <div class="form-row">
+                <button class="user-login-btn">ログイン</button>
+             </div>
+             <div class="form-row">
+                <p>※パスワードを忘れた方は<a href="">こちら</a></p>
+             </div>
+            </div>
+        </form>
+        <div class="user-new">
+            <a class="user-new-btn" href="">新規登録はこちら</a>
+        </div>
+    </main>
+    <footer>
+        <small>Copyright &copy; Akemi All rights reserved</small>
+    </footer>
+</body>
+
+</html>

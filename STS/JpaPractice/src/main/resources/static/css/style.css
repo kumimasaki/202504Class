@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #163867;
+    padding: 10px 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+main{
+    max-width: 860px;
+    margin: 20px auto;
+}
+.error-msg{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.login-msg{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.user-login-form{
+    background-color: #D6EEE1;
+    width: 60%;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.form-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+label{
+    width: 150px;
+}
+
+#email,#password{
+    width: 220px;
+    height: 30px;
+}
+
+.user-login-btn{
+    background-color: #40CD82;
+    width: 150px;
+    height: 44px;
+    border-radius: 22px;
+}
+
+.form-row a{
+  color: blue;
+  text-decoration: none;
+}
+.user-new{
+    text-align: center;
+    margin-top: 50px;
+}
+.user-new-btn{
+    text-decoration: none;
+    background-color: #40CD82;
+    padding: 20px ;
+    border-radius: 22px;
+    color: black;
+}
+
+footer{
+    background-color: #8F8E8E;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
