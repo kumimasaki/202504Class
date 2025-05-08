@@ -15,7 +15,7 @@
     </header>
     <main>
         <div class="error-msg">
-            <p>メールアドレスが既に登録されています。</p>
+            <p th:if="${error}">メールアドレスが既に登録されています。</p>
         </div>
         <form th:action="@{/register/process}" method="post">
             <div class="user-login-form">
