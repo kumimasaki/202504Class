@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" th:href="@{/css/main.css}">
+  <link rel="stylesheet" th:href="@{/css/login.css}">
+</head>
+
+<body>
+  <div class="form-wrapper">
+    <form method="post" action="/login">
+      <h1 class="title">Login</h1>
+      <hr>
+      <p class="error" th:if="${error}">Wrong username or password!</p>
+
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Your username" required></input>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Your password" required></input>
+      </div>
+
+      <input class="submit-button" type="submit" value="Login"></input>
+      <p class="secondary link">Don't have an account? <a th:href="@{/register}">Register</a>.</p>
+    </form>
+  </div>
+</body>
+
+</html>

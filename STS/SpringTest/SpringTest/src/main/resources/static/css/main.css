@@ -1,0 +1,86 @@
+body {
+  background-color: darkslategrey;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+label, input {
+  display: block;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.form-wrapper {
+  background: linear-gradient(to right bottom, mediumpurple, mediumspringgreen);
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 13px;
+  border: ridge 3px snow;
+}
+
+form {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 20px 15px;
+  border: ridge 3px aliceblue;
+}
+
+.input-group + .input-group {
+  margin-top: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 7px;
+  border: 1px solid grey;
+  padding: 0 9px;
+}
+
+label, .submit-button {
+  font-size: 16px;
+}
+
+.submit-button {
+  border: none;
+  color: white;
+}
+
+.submit-button:active {
+  background-color: lightgrey !important;
+}
+
+.secondary {
+  color: silver;
+}
+
+a {
+  color: teal;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: lime;
+}
+
+.error {
+  font-family: 13px;
+  color: red;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}

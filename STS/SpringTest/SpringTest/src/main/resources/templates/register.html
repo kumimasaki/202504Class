@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" th:href="@{css/main.css}">
+  <link rel="stylesheet" th:href="@{css/register.css}">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+</head>
+
+<body>
+  <div class="form-wrapper">
+    <form method="post" action="register">
+      <h1 class="title">Register</h1>
+      <p class="secondary">Please fill in the form to create an account.</p>
+      <hr>
+      <p class="error" th:if="${error}">The username has existed!</p>
+
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Your username"
+               required></input>
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="E.g.: ABC12345"
+               required pattern="\w{8,}"></input>
+      </div>
+
+      <div class="input-group">
+        <input type="checkbox" id="tap" required>
+        <label for="tap">By creating an account you agree to our
+            <a href="https://policies.google.com/privacy?hl=en-US" target="_blank">Terms & Privacy</a>.
+        </label>
+      </div>
+
+      <input class="submit-button" type="submit" value="Register"></input>
+
+      <p class="secondary">Already have an account? <a th:href="@{/login}">Sign in</a>.</p>
+    </form>
+  </div>
+</body>
+
+</html>
